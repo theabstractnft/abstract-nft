@@ -100,7 +100,7 @@
 *
 *********************************/
 :root {
-  --movie-width: 15.5vw;
+  --movie-width: 300px;
   --movie-height: 300px;
   --arrow-width: 50px;
   --slider-py: 50px;
