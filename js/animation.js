@@ -200,3 +200,11 @@ btnRight.addEventListener("click", (e) => {
 //   console.log(slider.scrollLeft);
 //   console.log(slider.offsetWidth);
 // });
+
+//Testing closing of menu
+$('body').on('click',function(){
+  $(".navbar-collapse").collapse('hide');
+});
+
+  
+
