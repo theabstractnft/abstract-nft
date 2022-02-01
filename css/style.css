@@ -137,30 +137,21 @@ body {
   white-space: nowrap;
   position: relative;
   padding-top: var(--slider-py);
-  padding-bottom: var(--slider-py);
+  padding-bottom: var(--slider-py);  
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
-/*
-*
-* SLIDER INDICATORS
-*
-*********************************/
-.containers-indicators {
-  width: 100px;
-  position: absolute;
-  right: 0;
-  top: calc(var(--slider-py) - 60px);
-  visibility: hidden;
+.slider::-webkit-scrollbar {
+    display: none;
 }
-.indicator {
-  width: 15px;
-  height: 2px;
-  background-color: grey;
-  display: inline-block;
+
+@media only screen and (max-width: 900px) {
+  .btn-nav {
+    display: none!important;
+  }
 }
-.indicator.active {
-  background-color: white;
-}
+
 
 /*
 *
