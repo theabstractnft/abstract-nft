@@ -152,7 +152,7 @@ function updateIndicators(index) {
 btnLeft.addEventListener("click", (e) => {
   let movieWidth = document.querySelector(".movie").getBoundingClientRect()
     .width;
-  let scrollDistance = movieWidth * 6; // Scroll the length of 6 movies. TODO: make work for mobile because (4 movies/page instead of 6)
+  let scrollDistance = movieWidth * 4; // Scroll the length of 6 movies. TODO: make work for mobile because (4 movies/page instead of 6)
 
   slider.scrollBy({
     top: 0,
@@ -168,7 +168,7 @@ btnLeft.addEventListener("click", (e) => {
 btnRight.addEventListener("click", (e) => {
   let movieWidth = document.querySelector(".movie").getBoundingClientRect()
     .width;
-  let scrollDistance = movieWidth * 6; // Scroll the length of 6 movies. TODO: make work for mobile because (4 movies/page instead of 6)
+  let scrollDistance = movieWidth * 4; // Scroll the length of 6 movies. TODO: make work for mobile because (4 movies/page instead of 6)
 
   console.log(`movieWidth = ${movieWidth}`);
   console.log(`scrolling right ${scrollDistance}`);
