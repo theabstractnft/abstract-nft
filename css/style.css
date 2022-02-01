@@ -132,8 +132,8 @@ body {
 *********************************/
 .slider {
   width: 100%;
-  overflow-y: hidden; /* Hide vertical scrollbar */
-  overflow-x: hidden;
+  overflow-x: scroll;
+  overflow-y: visible;
   white-space: nowrap;
   position: relative;
   padding-top: var(--slider-py);
@@ -225,13 +225,7 @@ body {
 #moveRight {
   right: 0;
 }
-
-@media only screen and (max-width: 900px) {
-  .btn-nav {
-    display: none;
-  }
-}
-
+	
 @media only screen and (min-width: 901px) {
   .containers:hover .btn-nav,
   .containers:hover .containers-indicators {
