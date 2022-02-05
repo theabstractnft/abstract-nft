@@ -567,28 +567,6 @@ width: 100%;
 
 
 /*---------------------------------------
- FOOTER              
------------------------------------------*/
-.site-footer {
-background: black;
-border-top: 1px solid #efebeb;
-padding: 25px 0;
-}
-
-.site-footer a {
-color: #b3b3b3;
-font-weight: var(--font-weight-light);
-}
-
-.site-footer p {
-font-weight:300;
-font-size: var(--base-font-size);
-color: #b3b3b3;
-}
-
-
-
-/*---------------------------------------
  SOCIAL ICON              
 -----------------------------------------*/
 
