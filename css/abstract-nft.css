@@ -232,7 +232,8 @@ padding: 2rem 3rem;
 
 .modal-header,
 .modal-body,
-.modal-footer {
+.modal-
+er {
 border: 0;
 padding: 0;
 }
@@ -568,20 +569,23 @@ width: 100%;
 /*---------------------------------------
  FOOTER              
 -----------------------------------------*/
-
 .site-footer {
+background: black;
 border-top: 1px solid #efebeb;
 padding: 25px 0;
 }
 
 .site-footer a {
-color: var(--p-color);
+color: #b3b3b3;
 font-weight: var(--font-weight-light);
 }
 
 .site-footer p {
+font-weight:300;
 font-size: var(--base-font-size);
+color: #b3b3b3;
 }
+
 
 
 /*---------------------------------------
