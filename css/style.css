@@ -95,6 +95,10 @@ margin-right: auto;
   summary {
 	  padding-bottom:5px;
   }
+	.h2f{
+	  padding-bottom:5px;
+	  text-align:center;
+  }
 }
 
 .containers {
