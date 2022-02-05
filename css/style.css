@@ -228,18 +228,21 @@ margin-right: auto;
 Footer
 /********************************/
 
-table{
-	width: 80%;
-	margin-left: auto;
-margin-right: auto;
-padding:3.5em;
+footer {
+    background: #aaa;
+    width: 100%;
+    height: 8em;
+    color: #fff;
+    box-shadow: 0 -2px 5px #888;
+    font-size: 1em;
+    line-height: 3em;
+    
+    display: flex;
+    flex-direction: row;  
+    font-size: .8em;
+    justify-content: space-around;
 }
-td {
-  text-align: right;
-}
-.copy{
-    text-align:center;
-}
+
 
 /***********************************
 *
