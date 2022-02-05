@@ -100,7 +100,12 @@ margin-right: auto;
 	  text-align:center;
   }
 }
-
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+	 :root {
+    --movie-height: 300px;
+	--movie-width: 300px;
+  }
+	}
 .containers {
   position: relative;
 }
