@@ -527,7 +527,9 @@ display: block;
 .site-footer {
 background: black;
 border-top: 1px solid #efebeb;
+justify-content: space-evenly;
 padding: 25px 0;
+display:flex;
 }
 
 .site-footer a {
