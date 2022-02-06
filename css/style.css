@@ -102,8 +102,8 @@ margin-right: auto;
 }
 @media only screen and (min-width: 412px) and (max-width: 767px) {
 	 :root {
-    --movie-height: 300px;
-	--movie-width: 300px;
+    --movie-height: 200px;
+	--movie-width: 200px;
   }
 	}
 .containers {
