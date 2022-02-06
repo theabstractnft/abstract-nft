@@ -242,19 +242,6 @@ footer {
     font-size: .8em;
     justify-content: space-around;
 }
-
-.site-footer a {
-color: #b3b3b3;
-font-weight: var(--font-weight-light);
-}
-
-.site-footer p {
-font-weight:300;
-font-size: var(--base-font-size);
-color: #b3b3b3;
-}
-
-
 /***********************************
 *
 *			FAQ
