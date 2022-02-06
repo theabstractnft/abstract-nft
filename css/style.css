@@ -229,14 +229,14 @@ Footer
 /********************************/
 
 footer {
-    background: #aaa;
+    background: Black;
     width: 100%;
     height: 8em;
     color: #fff;
     box-shadow: 0 -2px 5px #888;
     font-size: 1em;
     line-height: 3em;
-    
+    padding : 25px;
     display: flex;
     flex-direction: row;  
     font-size: .8em;
