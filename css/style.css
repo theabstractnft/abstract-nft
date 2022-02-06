@@ -17,59 +17,6 @@ margin-right: auto;
   font-size: 1.3em;
   color: #c69839 ;
 }
-/* RoadMap */
-.list-wrapper {
-  position:relative;
-}
-.list-item-wrapper {
-  margin-top:40px;
-  position:relative;
-}
-.list-bullet {
-  float:left;
-  margin-right:20px;
-  background:#FF4949;
-  height:40px;
-  width:40px;
-  line-height:30px;
-  border-radius:100px;
-  font-weight:700;
-  color:white;
-  text-align:center;
-}
-.list-item {
-  display:table-row;
-  vertical-align:super;
-}
-.list-title {
-    font-weight:700;
-}
-.list-text {
-    font-weight:400;
-}
-.red-line {
-  background:#FF4949;
-  z-index:-1;
-  width:10px;
-  height:85%;
-  position:absolute;
-  left:15px;
-}
-
-.round{
-  border-radius: 50%;
-}
-
-@media screen and (max-width: 992px){
-  .red-line{
-    background:#FF4949;
-    z-index:-1;
-    width:10px;
-    height: 80px;
-    position:relative;
-    left:15px;
-  }
-}
 
 /*
 *
@@ -84,22 +31,12 @@ margin-right: auto;
 }
 @media only screen and (max-width: 1000px) {
   :root {
-    --movie-width: 50vw;
+    --movie-width: 300px;
+	--movie-height: 300px;
   }
-    .control-icon {
-  display: none;
-  }
-  details{
-	  padding-bottom:2px;
-  }
-  summary {
-	  padding-bottom:5px;
-  }
-	.h2f{
-	  padding-bottom:5px;
-	  text-align:center;
-  }
+
 }
+
 @media only screen and (min-width: 412px) and (max-width: 767px) {
 	 :root {
     --movie-height: 200px;
@@ -187,7 +124,7 @@ margin-right: auto;
     transform: scale(1.2);
     z-index: 2;
   }
-
+}
 /*
 *
 * BUTTONS
@@ -223,25 +160,11 @@ margin-right: auto;
   }
 }
 
-
 /**************************
 Footer
 /********************************/
 
-footer {
-    background: black;
-    width: 100%;
-    height: 8em;
-    color: #fff;
-    box-shadow: 0 -2px 5px #888;
-    font-size: 1em;
-    line-height: 3em;
-    padding : 25px;
-    display: flex;
-    flex-direction: row;  
-    font-size: .8em;
-    justify-content: space-around;
-}
+
 /***********************************
 *
 *			FAQ
@@ -336,8 +259,4 @@ details[open] .control-icon-close {
 details[open] .control-icon-expand {
   display: none;
 }
-@media only screen and (max-width: 768px) {
-   .control-icon {
-    visibility: hidden;
-  }
-}
+
