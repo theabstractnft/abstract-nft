@@ -407,6 +407,9 @@ details[open] .control-icon-expand {
   .timeline p {
 	color: #e6e6e6;
 }
+  .block{
+	text-align: center;
+ }
 }
 
 
